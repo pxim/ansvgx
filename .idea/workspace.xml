@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28600b61-c2cb-4ed1-b91c-4fd2c84522e0" name="Default Changelist" comment="" />
+    <list default="true" id="28600b61-c2cb-4ed1-b91c-4fd2c84522e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HoverButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HoverButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +21,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jSJirsPo1ZwB9jJPQqRcKctuq0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -32,13 +41,24 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="F:\Program Files\JetBrains\WebStorm 2019.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\px\github\createjsx" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.npm:publish">
+    <configuration name="npm:publish-public" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="npm:publish-public" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm:publish" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -51,10 +71,12 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.npm:publish-public" />
         <item itemvalue="npm.npm:publish" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -71,29 +93,36 @@
       <workItem from="1603957037464" duration="705000" />
       <workItem from="1603975291193" duration="909000" />
       <workItem from="1604567041417" duration="928000" />
+      <workItem from="1604648696551" duration="201000" />
+      <workItem from="1606786723208" duration="21000" />
+      <workItem from="1608187329012" duration="833000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom" timestamp="1604567969319">
+    <state x="643" y="287" key="FileChooserDialogImpl" timestamp="1608187381328">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604567969319" />
-    <state width="1899" height="194" key="GridCell.Tab.0.center" timestamp="1604567969319">
+    <state x="643" y="287" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608187381328" />
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom" timestamp="1608188162383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604567969319" />
-    <state width="1899" height="194" key="GridCell.Tab.0.left" timestamp="1604567969319">
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608188162383" />
+    <state width="1899" height="244" key="GridCell.Tab.0.center" timestamp="1608188162383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604567969319" />
-    <state width="1899" height="194" key="GridCell.Tab.0.right" timestamp="1604567969319">
+    <state width="1899" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608188162383" />
+    <state width="1899" height="244" key="GridCell.Tab.0.left" timestamp="1608188162383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604567969319" />
+    <state width="1899" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608188162383" />
+    <state width="1899" height="244" key="GridCell.Tab.0.right" timestamp="1608188162383">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608188162383" />
     <state x="567" y="220" width="786" height="600" key="find.popup" timestamp="1603793621917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

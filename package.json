@@ -1,6 +1,6 @@
 {
   "name": "ansvgx",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "一个Adobe Animate svg工具库，里面封装了一些组件",
   "main": "index.js",
   "scripts": {

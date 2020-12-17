@@ -1,25 +1,39 @@
 
-## ansvgx
-svg的封装一些组件和工具方法  
-**注意：**   
-此工具库只适用于基于Adobe Animate导出的SVG图片。  
+# ansvgx
+## 介绍 / Intro
+
+基于adobe animate导出的svg图片，封装的一些组件和工具方法 。
 
 
-### install
-`npm i ansvgx`
+## 安装 / Install
+```
+npm i ansvgx
+```
 
-### import整个组件工具包  
-`import * as svgx from 'ansvgx'`
+### import 整个包 
+```javascript
+import * as svgx from 'ansvgx'
+```
 
-#### 组件  
-`HoverButton`   
-`TabButton`  
+### import 单个组件
 
-#### Use  
-`
-const widget = new svgx.HoverButton(el);  
-`
+```javascript
+import {HoverButton} from 'ansvgx'
+```
 
+## 使用 / Use  
 
-### import单个组件
-`import {HoverButton} from 'ansvgx'`
+```javascript
+const widget = new svgx.HoverButton(el);    
+```
+
+## 组件 / Component
+
+| 组件          | 说明     | 使用 | 备注 |
+| ------------- | -------- | ---- | ---- |
+| `HoverButton` | 悬浮按钮 |      |      |
+| `TabButton`   | Tab组件  |      |      |
+|               |          |      |      |
+|               |          |      |      |
+|               |          |      |      |
+
